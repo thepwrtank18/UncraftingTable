@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "uncraft",
+  "version": "1.0",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Brings back the Uncrafting Table to 1.15.2.",
   "authors": [
-    "Me!"
+    "TheTank20"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/thepwrtank18/UncraftingTable"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.thetank.uncraft.UncraftingTable"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "uncraft.mixins.json"
   ],
 
   "depends": {
