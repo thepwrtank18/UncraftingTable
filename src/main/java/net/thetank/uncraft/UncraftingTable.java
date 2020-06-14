@@ -7,9 +7,10 @@ import net.minecraft.block.Material;
 
 public class UncraftingTable implements ModInitializer 
 {
-	public void onInitialize() 
-	{
-		public static final Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE);
+	public static final [...]
+	
+	public void onInitialize() { 	
+		Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE));
 		[...]
 	}
 }
