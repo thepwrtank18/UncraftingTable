@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class UncraftingTable implements ModInitializer {
  
@@ -15,6 +17,6 @@ public class UncraftingTable implements ModInitializer {
  
     @Override
     public void onInitialize() {
- 
+		Registry.register(Registry.BLOCK, new Identifier("uncrafting", "uncrafting_table"), UNCRAFTING_TABLE);
     }
 }
