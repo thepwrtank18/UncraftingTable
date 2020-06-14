@@ -9,7 +9,7 @@ public class UncraftingTable implements ModInitializer
 {
 	public void onInitialize() 
 	{
-		public static final Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE).build());
+		public static final Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE);
 		[...]
 	}
 }
