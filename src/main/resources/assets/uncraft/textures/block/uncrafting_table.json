@@ -1,11 +1,11 @@
 {
     "parent": "block/orientable",
     "textures": {
-        "up": "uncrafting:textures/uncrafting_table_top",
-        "down": "uncrafting:textures/uncrafting_table_bottom",
-        "south": "uncrafting:textures/uncrafting_table_side",
-        "north": "uncrafting:textures/uncrafting_table_front",
-        "west": "uncrafting:textures/uncrafting_table_side",
-        "east": "uncrafting:textures/uncrafting_table_top"
+        "up": "uncrafting:block/uncrafting_table_top",
+        "down": "uncrafting:block/uncrafting_table_bottom",
+        "south": "uncrafting:block/uncrafting_table_side",
+        "north": "uncrafting:block/uncrafting_table_front",
+        "west": "uncrafting:block/uncrafting_table_side",
+        "east": "uncrafting:block/uncrafting_table_top"
     }
   }
