@@ -1,0 +1,11 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "up": "uncrafting:textures/uncrafting_table_top",
+        "down": "uncrafting:textures/uncrafting_table_bottom",
+        "south": "uncrafting:textures/uncrafting_table_side",
+        "north": "uncrafting:textures/uncrafting_table_front",
+        "west": "uncrafting:textures/uncrafting_table_side",
+        "east": "uncrafting:textures/uncrafting_table_top"
+    }
+  }
