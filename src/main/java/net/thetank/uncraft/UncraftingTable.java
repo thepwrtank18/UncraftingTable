@@ -5,12 +5,16 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 
-public class UncraftingTable implements ModInitializer 
-{
-	public static final [...]
-	
-	public void onInitialize() { 	
-		Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE));
-		[...]
-	}
+public class UncraftingTable implements ModInitializer {
+ 
+    /* Declare and initialize our custom block instance.
+       We set out block material to METAL, which requires a pickaxe to efficiently break.
+       Hardness represents how long the break takes to break. Stone has a hardness of 1.5f, while Obsidian has a hardness of 50.0f.
+    */
+    public static final Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE).hardness(3.5f));
+ 
+    @Override
+    public void onInitialize() {
+ 
+    }
 }
