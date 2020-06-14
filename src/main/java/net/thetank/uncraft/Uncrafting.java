@@ -16,7 +16,7 @@ public class Uncrafting implements ModInitializer {
        We set out block material to METAL, which requires a pickaxe to efficiently break.
        Hardness represents how long the break takes to break. Stone has a hardness of 1.5f, while Obsidian has a hardness of 50.0f.
     */
-    public static final Block UNCRAFTING_TABLE = new UncraftingTable(FabricBlockSettings.of(Material.STONE).hardness(3.5f));
+    public static final Block UNCRAFTING_TABLE = new Block(FabricBlockSettings.of(Material.STONE).hardness(3.5f));
  
     @Override
     public void onInitialize() {
@@ -24,3 +24,6 @@ public class Uncrafting implements ModInitializer {
     Registry.register(Registry.ITEM, new Identifier("uncrafting", "uncrafting_table"), new BlockItem(UNCRAFTING_TABLE, new Item.Settings().group(ItemGroup.DECORATIONS)));
     }
 }
+
+
+// Is VS Code giving me a hint on COMMENTS? Really?
